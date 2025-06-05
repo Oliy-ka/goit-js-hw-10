@@ -1,0 +1,79 @@
+.form {
+    width: 360px;
+}
+
+.delay {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.input-delay {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.state {
+    border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #808080;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    padding-left: 48px;
+    padding-right: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.state:hover{
+    border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #000;
+}
+
+.state:active{
+    border-radius: 4px;
+        stroke-width: 1px;
+        stroke: #000;
+}
+
+.state label:hover{
+    border-radius: 4px;
+        stroke-width: 1px;
+        stroke: #000;
+}
+
+.btn-notification {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+}
+
+.btn-notification:hover{
+    background: #6c8cff;
+}
+
